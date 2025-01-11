@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+nav {
+  background-color: #333;
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-container img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.home-container .intro {
+  width: 40%;
+  padding: 2rem;
+  border-left: 1px solid #ccc;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+  }
+
+  .home-container img,
+  .home-container .intro {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-container .intro {
+    border-left: none;
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }
+  /* Página de Livros */
+  .books-container {
+    padding: 2rem;
+  }
+  .books-container h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .book {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+  }
+  .book img {
+    width: 150px;
+    height: auto;
+    margin-right: 1.5rem;
+  }
+  .book-info {
+    flex: 1;
+  }
+  .book-info h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .book-info p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .book-info a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .book-info a:hover {
+    text-decoration: underline;
+  } /* Responsivo */
+  @media (max-width: 768px) {
+    .book {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .book img {
+      margin-bottom: 1rem;
+    }
+    .book-info {
+      width: 100%;
+    }
+  }
+}
