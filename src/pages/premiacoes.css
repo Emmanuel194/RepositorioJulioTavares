@@ -12,6 +12,13 @@
   margin-bottom: 2rem;
 }
 
+.award img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-right: 1.5rem;
+}
+
 .award-info {
   margin-top: 1rem;
 }
@@ -27,6 +34,11 @@
 }
 
 @media (max-width: 768px) {
+  .award img {
+    margin: 0 auto;
+    display: block;
+  }
+
   .award-info {
     text-align: center;
   }
