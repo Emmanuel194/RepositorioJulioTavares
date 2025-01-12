@@ -6,7 +6,6 @@ import Livros from "./pages/Livros";
 import Premiacoes from "./pages/Premiacoes";
 import Historia from "./pages/Historia";
 import Poesias from "./pages/Poesias";
-import Sobre from "./pages/Sobre";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
           <Route path="/premiacoes" element={<Premiacoes />} />
           <Route path="/historia" element={<Historia />} />
           <Route path="/poesias" element={<Poesias />} />
-          <Route path="/sobre" element={<Sobre />} />
         </Routes>
       </div>
     </Router>

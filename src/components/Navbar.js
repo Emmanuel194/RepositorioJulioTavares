@@ -13,16 +13,13 @@ function Navbar() {
           <Link to="/livros">Livros</Link>
         </li>
         <li>
-          <Link to="/premiacoes">Premiações</Link>
+          <Link to="/premiacoes">Homenagens e Premiações</Link>
         </li>
         <li>
           <Link to="/historia">História</Link>
         </li>
         <li>
           <Link to="/poesias">Poesias Autorais</Link>
-        </li>
-        <li>
-          <Link to="/sobre">Sobre</Link>
         </li>
       </ul>
     </nav>
