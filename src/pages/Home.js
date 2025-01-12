@@ -32,9 +32,14 @@ function Home() {
           Prefeito Mário Realli.
         </p>
         <p>
-          Tem cinco livros publicados pela terra das Artes: PT Diadema- Uma
-          História de militância e luta, Camarada Fernandes, onde tem comunista
-          tem um partido, Outros Outubros Virão, Esquecer Jamais!, Arte e sonho.
+          Tem seis livros publicados: Brennand: arte e sonho, A Arte na
+          Encruzilhada dos Tempos - Ricardo Amadasi, Camarada Fernandes - Onde
+          Tem um Comunista, Tem o Partido, junto com Gonazaga do Monte,
+          Esquecer, jamais!, Outros Outubros Virão... Revoluções Proletárias, PT
+          Diadema - Uma história de militância e luta. Participa também dos
+          seguintes livros: Tiradentes, um presídio de presos políticos, Museu
+          da Solidariedade Salvador Allende, Estéticas, sonhos e utopias dos
+          artistas do mundo pela liberdade.
         </p>
       </div>
     </div>
