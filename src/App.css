@@ -39,9 +39,10 @@ nav ul li a:hover {
 
 .home-container {
   display: flex;
+  align-items: flex-start;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  padding-top: 5rem;
+  overflow-y: auto;
 }
 
 .home-container img {
@@ -49,12 +50,27 @@ nav ul li a:hover {
   max-width: 600px;
   height: auto;
   margin-right: 2rem;
+  position: sticky;
+  top: 5rem;
+  align-self: flex-start;
+  margin-left: 3rem;
 }
 
 .home-container .intro {
-  width: 40%;
+  width: 60%;
   padding: 2rem;
   border-left: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro p:first-child {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.intro p:not(:first-child) {
+  width: auto;
 }
 
 .intro h1 {
@@ -83,7 +99,7 @@ nav ul li a:hover {
     border-top: 1px solid #ccc;
     text-align: center;
   }
-  /* Página de Livros */
+
   .books-container {
     padding: 2rem;
   }
@@ -120,7 +136,7 @@ nav ul li a:hover {
   }
   .book-info a:hover {
     text-decoration: underline;
-  } /* Responsivo */
+  }
   @media (max-width: 768px) {
     .book {
       flex-direction: column;

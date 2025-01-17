@@ -126,7 +126,7 @@ function Livros() {
             necessita ser debatido, estudado. Esse livro que agora apresentamos
             é parte desse esforço analítico e militante."
           </p>
-          <a href="URL_DO_LIVRO_2">Baixar o livro</a>
+          <a href="/ptDiadema.pdf">Baixar o livro</a>
         </div>
       </div>
 
